@@ -1,0 +1,39 @@
+.hero-container {
+  display: flex;
+
+  padding: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin: auto;
+  row-gap: 70px;
+}
+
+.image-card {
+  width: 360px;
+  height: 220px;
+}
+.pic-card {
+  width: 360px;
+  height: 220px;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.pic-card:hover .link-a {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.li-cont {
+  border: 2px solid #6495ed;
+  border-radius: 6px;
+  width: 360px;
+}
+
+.image-info {
+  display: flex;
+  flex-direction: row;
+  margin: 6px 10px;
+  gap: 15px;
+}
